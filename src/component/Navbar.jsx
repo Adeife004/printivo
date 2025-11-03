@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import style from './Navbar.module.css'
-import whatsappIcon from './assets/whatsapp.svg';
+import whatsappIcon from '../assets/whatsapp.svg';
+
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -50,9 +51,10 @@ const Navbar = () => {
             </div>
             {/* whatsapp and country */}
             <div className={style.whatsapp_country}>
-              <a href="#">
+              <a href="https://wa.me/...">
                 <img src={whatsappIcon} alt="WhatsApp icon" />
               </a>
+
 
               <div className={style.country}>
                 <img src="../src/assets/nigeria-flag.svg" alt="nigeria-flag" />
