@@ -1,25 +1,29 @@
-import style from './Shop.module.css'
+import style from "./Shop.module.css";
+import MicrosoftLogo from "../assets/microsoft.png"; 
 
 const Shop = () => {
   return (
     <>
-    <div>
+      <div>
         {/* shop */}
         <section className={style.shop}>
-            {/* text */}
-            <div className={style.text}>
-                <h1>Nigeria’s No. 1 online print shop 👑</h1>
-                <p>Our print services and solutions are trusted by these brands and over 15,000 other businesses in Nigeria.</p>
-            </div>
+          {/* text */}
+          <div className={style.text}>
+            <h1>Nigeria’s No. 1 online print shop 👑</h1>
+            <p>
+              Our print services and solutions are trusted by these brands and
+              over 15,000 other businesses in Nigeria.
+            </p>
+          </div>
 
-            {/* image */}
-            <div className={style.image}>
-                <img src="../src/assets/microsoft.png" alt="" />
-            </div>
+          {/* image */}
+          <div className={style.image}>
+            <img src={MicrosoftLogo} alt="Microsoft logo" />
+          </div>
         </section>
-    </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Shop
+export default Shop;
