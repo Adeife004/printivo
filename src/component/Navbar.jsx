@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import style from './Navbar.module.css'
 import whatsappIcon from '../assets/whatsapp.svg'
-import nigeriaFlag from '../assets/nigeria-flag.svg'
+import nigeriaFlag from '../assets/Nigeria-flag.svg'
 import logo from '../assets/logo.svg'
 
 const Navbar = () => {
