@@ -224,6 +224,10 @@ header.scrolled .top {
     display: flex;
   }
 
+  .navbar {
+    padding: 10px 30px;
+  }
+
   .nav_right {
     position: fixed;
     top: 0;
@@ -290,7 +294,7 @@ header.scrolled .top {
 /* ====== Small Mobile (≤480px) ====== */
 @media (max-width: 480px) {
   .navbar {
-    padding: 10px 20px;
+    padding: 10px 30px;
   }
 
   .nav_right {
