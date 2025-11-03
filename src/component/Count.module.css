@@ -1,0 +1,57 @@
+.count {
+    padding: 80px 40px;
+    background: #F7F6F4;
+}
+
+.text h2 {
+    color: #384a62;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.card {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 60px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardText h4 {
+    color: #384a62;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cardText p {
+    font-size: 15px;
+    color: #677f9e;
+}
+
+/* responsiveness */
+@media (max-width: 1024px) {
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .cardContent {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

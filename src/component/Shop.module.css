@@ -1,0 +1,40 @@
+.shop {
+    padding: 80px 40px;
+    background: #E8E8E8;
+}
+
+.shop h1 {
+    color: #384A62;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.shop p {
+    color: #506683;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .shop {
+        padding: 60px 20px;
+    }
+
+    .shop h1 {
+        font-size: 20px;
+    }
+
+    .shop p {
+        font-size: 15px;
+    }
+}
