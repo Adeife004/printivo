@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react'
 import style from './Navbar.module.css'
+import whatsappIcon from '../assets/whatsapp.svg'
+import nigeriaFlag from '../assets/nigeria-flag.svg'
+import logo from '../assets/logo.svg'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -50,11 +53,11 @@ const Navbar = () => {
             {/* whatsapp and country */}
             <div className={style.whatsapp_country}>
               <a href="#">
-                <img src="../src/assets/whatsapp.svg" alt="whatsapp-image" />
+<img src={whatsappIcon} alt="WhatsApp" />
               </a>
 
               <div className={style.country}>
-                <img src="../src/assets/nigeria-flag.svg" alt="nigeria-flag" />
+                <img src={nigeriaFlag} alt="Nigeria Flag" />
                 <span>Nigeria</span>
               </div>
             </div>
@@ -65,7 +68,8 @@ const Navbar = () => {
         <nav className={style.navbar}>
           {/* logo */}
           <div className={style.logo}>
-            <img src="../src/assets/logo.svg" alt="printivo-logo" />
+            <img src={logo} alt="Printivo Logo" />
+
           </div>
 
           {/* Hamburger Menu */}
