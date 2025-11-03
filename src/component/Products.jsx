@@ -4,75 +4,75 @@ const Products = () => {
             id: 1,
             name: "Two-sided Business Cards",
             price: "15,100",
-            image: "../src/assets/business-card.png"
+            image: "/assets/business-card.png"
         },
         {
             id: 2,
             name: "A5 Flyers (Single Sided)",
             price: "25,800",
-            image: "../src/assets/A5-flyer.png"
+            image: "/assets/A5-flyer.png"
         },
         {
             id: 3,
             name: "Round Stickers",
             price: "17,000",
-            image: "../src/assets/Round-stickers.png"
+            image: "/assets/Round-stickers.png"
         },
         {
             id: 4,
             name: "Simple Mug",
             price: "4,800",
-            image: "../src/assets/mugs.png"
+            image: "/assets/mugs.png"
         },
         {
             id: 5,
             name: "Postcards (A6)",
             price: "22,300",
-            image: "../src/assets/Postcards.jpg"
+            image: "/assets/Postcards.jpg"
         },
         {
             id: 6,
             name: "Roll-up Banners",
             price: "65,500",
-            image: "../src/assets/Rollup-banners.png"
+            image: "/assets/Rollup-banners.png"
         },
         {
             id: 7,
             name: "A2 Posters",
             price: "71,100",
-            image: "../src/assets/A2-posters.png"
+            image: "/assets/A2-posters.png"
         },
         {
             id: 8,
             name: "Trifold Brochures",
             price: "47,500",
-            image: "../src/assets/Trifold-brochures.png"
+            image: "/assets/Trifold-brochures.png"
         },
         {
             id: 9,
             name: "Landscape ID Cards",
             price: "4,500",
-            image: "../src/assets/Landscape-idcards.png"
+            image: "/assets/Landscape-idcards.png"
         },
         {
             id: 10,
             name: "Off White T-shirt",
             price: "6,000",
-            image: "../src/assets/Offwhite-Tshirts.png"
+            image: "/assets/Offwhite-Tshirts.png"
         },
         {
             id: 11,
             name: "A-4 Branded Paper Bags",
             price: "115,280",
-            image: "../src/assets/A4-BrandedPaperBags.png"
+            image: "/assets/A4-BrandedPaperBags.png"
         },
         {
             id: 12,
             name: "A4 Courier Bags",
             price: "47,500",
-            image: "../src/assets/A4CourierBags.jpeg"
+            image: "/assets/A4CourierBags.jpeg"
         }
-    ]
+    ];
 
     const styles = {
         productSection: {

@@ -1,4 +1,5 @@
 import style from './HeroSection.module.css';
+import heroImage from '../assets/hero-image.png'
 
 const HeroSection = () => {
   return (
@@ -24,7 +25,7 @@ const HeroSection = () => {
             </div>
             {/* heroImage */}
             <div className={style.heroImage}>
-                <img src="../src/assets/hero-image.png" alt="" />
+                <img src={heroImage} alt="" />
             </div>
         </section>
     </div>
